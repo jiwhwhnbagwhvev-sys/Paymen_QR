@@ -3,7 +3,7 @@
 # ===== CONFIG LOGIN =====
 USERNAME="Rio_paymens2026"
 PASSWORD="paymens_work_2026"
-MAIN="./dashboard.sh"
+MAIN="./main.sh"
 
 # ===== WARNA =====
 BLUE="\033[1;96m"
