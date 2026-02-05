@@ -61,7 +61,7 @@ case $m in
 11) bash modules/multi_user.sh ;;
 12) bash modules/auto_backup.sh ;;
 13) bash modules/qr_payment.sh ;;
-13) bash modules/qr_payment.sh ;;
+13) bash modules/scan_barang.sh
 0) exit ;;
 *) echo "Menu tidak valid"; sleep 1 ;;
 esac
