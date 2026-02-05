@@ -23,7 +23,6 @@ echo -e "$WHITE"
 # ===== MENU LOOP =====
 while true
 do
-
 logo
 
 echo "=========== DASHBOARD ==========="
@@ -41,7 +40,7 @@ echo "10. Activity Log"
 echo "11. User Management"
 echo "12. Auto Backup"
 echo "13. QR Payment"
-echo "14. Scan barang"
+echo "14. Scan Barang"
 echo " 0. Keluar"
 echo
 
@@ -61,8 +60,8 @@ case $m in
 11) bash modules/multi_user.sh ;;
 12) bash modules/auto_backup.sh ;;
 13) bash modules/qr_payment.sh ;;
-13) bash modules/scan_barang.sh
-0) exit ;;
+14) bash modules/scan_barang.sh ;;
+0) echo "Keluar..."; exit 0 ;;
 *) echo "Menu tidak valid"; sleep 1 ;;
 esac
 
