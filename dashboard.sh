@@ -41,7 +41,7 @@ echo "10. Activity Log"
 echo "11. User Management"
 echo "12. Auto Backup"
 echo "13. QR Payment"
-
+echo "14. Scan barang"
 echo " 0. Keluar"
 echo
 
@@ -60,6 +60,7 @@ case $m in
 10) bash modules/activity_log.sh ;;
 11) bash modules/multi_user.sh ;;
 12) bash modules/auto_backup.sh ;;
+13) bash modules/qr_payment.sh ;;
 13) bash modules/qr_payment.sh ;;
 0) exit ;;
 *) echo "Menu tidak valid"; sleep 1 ;;
